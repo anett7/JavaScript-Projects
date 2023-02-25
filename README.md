@@ -1,2 +1,2 @@
 # JavaScript-Projects
-JavaScript projects in my training
+This folder stores my JavaSript coding projects from the course The Tech Academy’s Web Design and Software Developer Boot Camp
