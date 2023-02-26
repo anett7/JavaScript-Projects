@@ -14,4 +14,9 @@ document.write(3+3);//Write an expression.
 var A="\"Be who you are and say what you feel,"
 +" because those who mind don't matter and those who matter don't mind.\""
 var B="-Dr Seuss"//Assign string values to two variables and concatenate the variables together.
-document.write(A+B)
+document.write(A+B);
+
+function First_function() {
+document.getElementById("demo").innerHTML=Date();
+}
+
