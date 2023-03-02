@@ -9,3 +9,9 @@ function myFunction() {// a function that uses the += operator
     sentence += " a lot from this book!";
     document.getElementById("concatenate").innerHTML = sentence;
 }
+
+function colorFunction() {
+document.getElementById("demo").style.color = "red";
+}
+
+    

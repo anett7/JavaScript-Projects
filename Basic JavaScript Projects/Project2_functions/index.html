@@ -9,7 +9,23 @@
         <button onclick="My_First_Function()" id="Green_Text">
          Click me!
         </button>
-<p id="concatenate"></p>
-<p id = "concatenate" onclick="myFunction()">Click here!</p>
+            <p id="concatenate"></p>
+            <p id = "concatenate" onclick="myFunction()">Click here!</p>
+            
+            <h1 id="demo" onclick="colorFunction()"> Click the Document Object</h1>
+        
+            <p>This example calls a function which performs a calculation and returns the result:</p>
+
+<p id="demo2"></p>
+
+<script>
+var x = myMFunction(4, 3);
+document.getElementById("demo2").innerHTML = x;
+
+function myMFunction(a, b) {
+  return a * b;
+}
+</script>
+            
     </body>
 </html>
