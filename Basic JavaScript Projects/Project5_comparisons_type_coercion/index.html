@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"
+    </head>
+    <body>
+        <script src="JS/main.js"></script>
+        
+        <p>Is "X" NaN?</p>
+    <p id="Test1" </p>
+        <p>Is "This is a string" NaN?</p>
+    <p id="Test2" </p>
+        <p>Is "007" NaN?</p>
+    <p id="Test3" </p>
+        
+        <script>
+            let x = Number.NaN;
+            document.getElementById("Test1").innerHTML = x;
+            document.getElementById("Test2").innerHTML = isNaN('This is a string');
+            document.getElementById("Test3").innerHTML = isNaN('007');
+    
+            </script> 
+            <p id="Not" onclick="not_Function()">click here!</p>
+            <p id="Not2" onclick="not_Function()">click here for true!</p>
+    </body>
+</html>
