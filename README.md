@@ -1,5 +1,6 @@
 # JavaScript-Projects
 This folder stores my JavaSript coding projects from the course The Tech Academy’s Web Design and Software Developer Boot Camp
+
 Pizza Menu: 
 This project is a menu used to order pizza with a various selection of toppings. It then takes the input information and calculates a price for the order. 
 
